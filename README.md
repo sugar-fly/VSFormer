@@ -10,7 +10,7 @@ Firstly, highly abstract visual cues of a scene are obtained with the cross atte
 Then, these visual cues and correspondences are modeled by a joint visual-spatial fusion module, simultaneously embedding visual cues into correspondences for pruning. 
 Additionally, to mine the consistency of correspondences, a novel module that combines the KNN-based graph and the transformer, effectively captures both local and global contexts.
 
-<div align=center><img src ="assets/figure1.jpg" style="zoom:40%;"/></div>
+<div align=center><img src ="assets/figure1.jpg" width=300 height=200"/></div>
 
 ## Requirements
 
