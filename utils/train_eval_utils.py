@@ -23,8 +23,6 @@ def train_one_epoch(model, optimizer, data_loader, conf, device, epoch, cur_glob
         data_loader = tqdm(data_loader, file=sys.stdout)
 
     for step, data in enumerate(data_loader):
-        if step == 1:
-            break
         cur_global_step += step * torch.cuda.device_count()
 
         train_data = tocuda(data)
