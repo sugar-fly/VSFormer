@@ -57,10 +57,13 @@ This repo benefits from [OANet](https://github.com/zjhthu/OANet) and [CLNet](htt
 Thanks for citing our paper:
 
 ```
-@article{liao2023vsformer,
+@inproceedings{liao2024vsformer,
   title={VSFormer: Visual-Spatial Fusion Transformer for Correspondence Pruning},
   author={Liao, Tangfei and Zhang, Xiaoqin and Zhao, Li and Wang, Tao and Xiao, Guobao},
-  journal={arXiv preprint arXiv:2312.08774},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={4},
+  pages={3369--3377},
+  year={2024}
 }
 ```
